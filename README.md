@@ -1,2 +1,2 @@
 # Youtube-ads-skip
-A simple chrome extension that will skip the youtube ads after a small interval
+a Chrome Extension which will automatically skip the Youtube advertisement after a very small interval of interval, now we not need to wait 4-5 secs to skip the advertisement.
