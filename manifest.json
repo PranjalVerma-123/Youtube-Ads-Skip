@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Ads killer",
+  "description": "Automatically kills the Annoying ads for you :) ",
+  "version": "1.0",
+  "icons": { "128": "icon128.png" },
+  "permissions":["webRequest", "webRequestBlocking", "<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["youtube.js"]
+    }
+  ],
+  "background":{
+    "scripts" : ["background.js"]
+}
+}
